@@ -42,6 +42,10 @@ server.post("/usuarios", async (request, reply) => {
   return reply.status(201).send();
 });
 
+server.get("/", () => {
+  return "Seja bem vindo a API Usuários"
+})
+
 // Rota para listar usuários (GET)
 server.get("/usuarios", async (request, reply) => {                                    
   // Extrai o parâmetro de busca da query da URL
