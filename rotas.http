@@ -6,7 +6,11 @@ Content-type: application/json
 {
   "nome": "João da Silva",
   "email": "joaodasilva@gmail.com",
-  "celular": "44 91234-1234"
+  "celular": "44 91234-1234",
+  "RA": "a2440962",
+  "data_de_admissão": "12-04-2005",
+  "numero_da_conta": "12-04-2005",
+  "numero_da_conta": "12-04-2005",
 }
 
 ###
