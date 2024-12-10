@@ -1,6 +1,6 @@
 # Desenvolvimento Web 2
 
-Backend exemplo para a disciplina de Desenvolvimento Web 2
+Projeto realizado para a matéria de Desenvolvimento Web 2, acompanhado pelo professor Rafael Liberato Roberto.
 
 
 ## Configuração do projeto
