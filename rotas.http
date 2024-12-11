@@ -4,13 +4,12 @@ POST https://crud-operations-backand.onrender.com/usuarios
 Content-type: application/json
 
 {
-  "nome": "João da Silva",
+  "nome": "Augustinho",
   "email": "joaodasilva@gmail.com",
-  "celular": "44 91234-1234",
-  "RA": "a2440962",
+  "celular": "44 94321-4321",
   "data_de_admissão": "12-04-2005",
-  "numero_da_conta": "12-04-2005",
-  "numero_da_conta": "12-04-2005",
+  "numero_da_conta": "10",
+  "quantidade_paga": "1000"
 }
 
 ###

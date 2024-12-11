@@ -20,11 +20,10 @@ async function criar(){
         RA      VARCHAR(50)  PRIMARY KEY,     
         nome    VARCHAR(100), 
         email   VARCHAR(150), 
-        celular VARCHAR(15)  
-        data_de_admissão DATE 
-        numero_da_conta VARCHAR(10)
-        quantidade_paga VARCHAR (20)
-        
+        celular VARCHAR(15),
+        data_de_admissão DATE, 
+        numero_da_conta VARCHAR(10),
+        quantidade_paga VARCHAR (20) 
       );
     ` 
     console.log("Tabela criada")
@@ -32,9 +31,6 @@ async function criar(){
     console.log(error)
     
   }
-  
-
-
 }
 
 
