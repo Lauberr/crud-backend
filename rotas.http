@@ -7,7 +7,7 @@ Content-type: application/json
   "nome": "Augustinho",
   "email": "joaodasilva@gmail.com",
   "celular": "44 94321-4321",
-  "data_de_admissão": "12-04-2005",
+  "data_de_admissao": "12-04-2005",
   "numero_da_conta": "10",
   "quantidade_paga": "1000"
 }
@@ -21,6 +21,9 @@ Content-type: application/json
   "nome": "Maria Freitas",
   "email": "mariafreitas@gmail.com",
   "celular": "44 94321-4321"
+  "data_de_admissao": "12-05-2009"
+  "numero_da_conta": "11"
+  "quantidade_paga": "2000"
 }
 
 ###
@@ -41,6 +44,9 @@ Accept-Language: pt
   "nome": "João da Silva",
   "email": "joaodasilva2@gmail.com",
   "celular": "44 91234-1234"
+  "data_de_admissao": "23-08-2010"
+  "numero_da_conta": "22"
+  "quantidade_paga": "3000"
 }
 
 ###

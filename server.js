@@ -29,13 +29,16 @@ const database = new DatabasePostgres();
 // Rota para criar um novo usuário (POST)
 server.post("/usuarios", async (request, reply) => {
   // Desestrutura os dados do corpo da requisição
-  const { nome, email, celular } = request.body;
+  const { nome, email, celular, data_de_admissao, numero_da_conta, quantidade_paga } = request.body;
 
   // Chama o método create do banco de dados para inserir um novo vídeo
   await database.create({
     nome: nome,
     email: email,
     celular: celular,
+    data_de_admissao: data_de_admissao,
+    numero_da_conta: numero_da_conta,
+    quantidade_paga: quantidade_paga,
   });
 
   // Retorna uma resposta de sucesso com código 201 (Created)
@@ -71,6 +74,9 @@ server.put("/usuarios/:id", async (request, reply) => {
     nome,
     email,
     celular,
+    data_de_admissao,
+    numero_da_conta,
+    quantidade_paga,
   });
 
   // Retorna uma resposta de sucesso sem conteúdo (204 No Content)
