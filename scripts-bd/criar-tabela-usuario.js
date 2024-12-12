@@ -17,7 +17,7 @@ async function criar(){
   try {
     await sql`
       CREATE TABLE usuarios (
-        id      VARCHAR(10)  PRIMARY KEY,     
+        id      VARCHAR(50)  PRIMARY KEY,     
         nome    VARCHAR(100), 
         email   VARCHAR(150), 
         celular VARCHAR(15),
