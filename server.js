@@ -67,7 +67,7 @@ server.put("/usuarios/:id", async (request, reply) => {
   // Obtém o ID do usuário a ser atualizado a partir dos parâmetros da URL
   const usuarioId = request.params.id;
   // Desestrutura os novos dados do usuário do corpo da requisição
-  const { nome, email, celular } = request.body;
+  const { nome, email, celular, data_de_admissao, numero_da_conta, quantidade_paga } = request.body;
 
   // Chama o método update do banco de dados
   await database.update(usuarioId, {
